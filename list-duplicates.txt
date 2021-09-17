@@ -1,0 +1,14 @@
+EXT		 duplicates
+---------------------------
+ksh		 code + exec
+c		 code + code
+zsh		 code + exec
+php		 code + web
+sh		 code + exec
+fish		 code + exec
+js		 code + web
+bat		 code + exec
+csh		 code + exec
+html		 code + web
+bash		 code + exec
+yuv		 image + video
