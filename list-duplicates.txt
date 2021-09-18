@@ -1,14 +1,15 @@
-EXT		 duplicates
----------------------------
-ksh		 code + exec
-c		 code + code
-zsh		 code + exec
-php		 code + web
-sh		 code + exec
-fish		 code + exec
-js		 code + web
-bat		 code + exec
-csh		 code + exec
-html		 code + web
-bash		 code + exec
-yuv		 image + video
+ext	prim	others
+---	----	------
+bash	exec	code
+bat	exec	code
+csh	exec	code
+fish	exec	code
+ksh	exec	code
+sh	exec	code
+zsh	exec	code
+yuv	video	image
+html	code	web
+htm	code	web
+js	code	web
+jsx	code	web
+php	code	web
