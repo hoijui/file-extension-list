@@ -14,7 +14,7 @@ then
 fi
 
 case "$ext" in
-	3ds|3mf|f3d|gcode|obj|scad|smt|step|stl|stp)
+	3dm|3ds|3mf|f3d|gcode|obj|scad|smt|step|stl|stp)
 		echo "3D"
 		;;
 	7z|a|aar|apk|ar|br|bz2|cab|cpio|deb|dmg|egg|gz|iso|jar|lha|lz|lz4|lzma|lzo|mar|pak|pea|rar|rpm|s7z|shar|tar|tbz2|tgz|tlz|txz|war|whl|xpi|xz|zip|zipx|zst)
@@ -26,7 +26,7 @@ case "$ext" in
 	azw|azw1|azw3|azw4|azw6|cbr|cbz|epub|mobi)
 		echo "book"
 		;;
-	1.ada|2.ada|ada|adb|ads|asm|asp|aspx|bas|c|c++|cbl|cc|class|clj|cob|cpp|cs|cxx|d|diff|dll|e|el|f|f77|f90|for|fth|ftn|go|groovy|h|hh|hpp|hs|htm|html|hxx|inc|java|js|json|jsp|jsx|kt|kts|lhs|lisp|lua|m|m4|nim|patch|php|php3|php4|php5|phtml|pl|po|pp|prql|ps1|ps1xml|psc1|psd1|psm1|psrc|pssc|py|r|rb|rs|s|scala|sql|swg|swift|v|vb|vcxproj|wll|xcodeproj|xll|xml|zig)
+	1.ada|2.ada|ada|adb|ads|asm|asp|aspx|bas|c|c++|cbl|cc|class|clj|cob|cpp|cs|cxx|d|diff|dll|e|el|f|f77|f90|for|fth|ftn|go|groovy|h|hh|hpp|hs|htm|html|hxx|inc|java|js|json|jsp|jsx|kt|kts|lhs|lisp|lua|m|m4|nim|patch|php|php3|php4|php5|phtml|pl|po|pp|prql|ps1|ps1xml|psc1|psd1|psm1|psrc|pssc|py|r|rb|rs|s|scala|sql|swg|swift|ts|tsx|v|vb|vcxproj|wll|xcodeproj|xll|xml|zig)
 		echo "code"
 		;;
 	bash|bat|bin|cmd|com|command|crx|csh|exe|fish|ksh|msi|sh|zsh)
@@ -35,7 +35,7 @@ case "$ext" in
 	eot|otf|ttf|woff|woff2)
 		echo "font"
 		;;
-	3dm|3ds|ai|avif|bmp|dds|dwg|dxf|eps|gif|gpx|heic|heif|jpeg|jpg|jxl|kml|kmz|max|png|ps|psd|svg|tga|thm|tif|tiff|webp|xcf)
+	ai|avif|bmp|dds|dwg|dxf|eps|gif|gpx|heic|heif|jpeg|jpg|jxl|kml|kmz|max|png|ps|psd|svg|tga|thm|tif|tiff|webp|xcf)
 		echo "image"
 		;;
 	csv|ics|ods|tsv|vcf|xls|xlsx)
